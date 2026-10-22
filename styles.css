@@ -243,7 +243,9 @@
 }
 [data-node-id="210:739"] {
   transform: scaleX(var(--bleed-scale));
-  transform-origin: 727.3671875px top;
+  /* Anchor the leash at the collar (x285 in the original 1200px canvas),
+     rather than at the center of the window. The dog stays in the grid. */
+  transform-origin: 412.3671875px top;
 }
 
 /* Cloud landscape is separate from the text and oval illustration. */
