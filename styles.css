@@ -1,8 +1,8 @@
 @font-face{font-family:"Days One";src:url("DaysOne-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
 @font-face{font-family:"Helvetica Local";src:url("Helvetica-Regular.otf") format("opentype");font-weight:400;font-style:normal;font-display:swap}
-:root{--cream:#f7f4eb;--pink:#f2ccd2;--red:#d54c40;--blue:#2c6484;--ink:#513434;--dark-blue:#b9d1e5;--page-scale:1}
+:root{--cream:#f7f4eb;--pink:#f2ccd2;--red:#d54c40;--blue:#2c6484;--ink:#513434;--dark-blue:#b9d1e5;--page-scale:1;--layout-width:1200px;--bleed-scale:1;--side-space:0px}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:"Helvetica Local",Helvetica,Arial,sans-serif}p,h1,h2,h3{margin:0;font-weight:400}a{color:inherit;text-decoration:none}img{display:block;max-width:none}a:focus-visible{outline:3px solid var(--red);outline-offset:7px;border-radius:4px}nav a{transition:color .15s}nav a:hover{color:var(--red)}
-.page-stage{position:relative;width:100%;height:calc(10347px * var(--page-scale));overflow:hidden}.page{position:absolute;left:50%;width:1200px;height:10347px;margin-left:-600px;overflow:hidden;background:var(--cream);transform:scale(var(--page-scale));transform-origin:top center}.page-section{position:relative;width:1200px;scroll-margin-top:24px}main{display:block}.skip-link{position:fixed;z-index:20;top:12px;left:12px;padding:12px 18px;background:var(--cream);border:2px solid var(--blue);border-radius:8px;transform:translateY(-200%)}.skip-link:focus{transform:none}
+.page-stage{position:relative;width:100%;height:calc(10347px * var(--page-scale));overflow:hidden}.page{position:absolute;left:50%;width:var(--layout-width);height:10347px;margin-left:calc(var(--layout-width) / -2);overflow:hidden;background:var(--cream);transform:scale(var(--page-scale));transform-origin:top center}.page-section{position:relative;width:100%;scroll-margin-top:24px}main{display:block}.skip-link{position:fixed;z-index:20;top:12px;left:12px;padding:12px 18px;background:var(--cream);border:2px solid var(--blue);border-radius:8px;transform:translateY(-200%)}.skip-link:focus{transform:none}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}nav a{transition:none}}
 .layout-1{position:absolute;height:2528.202px;left:-199.53px;top:4345.5px;width:1842.03px;}
 .layout-2{position:absolute;inset:-0.13% -0.17% -0.23% -0.53%;}
@@ -188,3 +188,81 @@
 .layout-182{flex:none;transform:rotate(30deg);}
 .layout-183{height:99.397px;position:relative;width:89.012px;}
 .layout-184{position:absolute;inset:-3.99% -6.53% -3.83% -3.85%;}
+
+/* Central 1140px grid with full-width section backgrounds.
+   The extra 30px on either side of the design canvas preserve the original
+   Figma coordinates. Text, cards and meaningful illustrations do not stretch. */
+.content-container {
+  position: relative;
+  width: 1140px;
+  height: 100%;
+  margin-inline: auto;
+}
+.design-canvas {
+  position: absolute;
+  top: 0;
+  left: -30px;
+  width: 1200px;
+  height: 100%;
+}
+.page-decoration-plane {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1200px;
+  height: 10347px;
+  margin-left: -600px;
+  pointer-events: none;
+}
+
+/* Pink section: no fixed-width strip or seams at the sides. */
+[data-node-id="210:730"] {
+  left: calc(600px - var(--layout-width) / 2);
+  width: var(--layout-width);
+}
+
+/* Original SVG viewports remain intact. Their wrappers extend the backdrop
+   horizontally around the same center as the content container. */
+[data-node-id="210:870"],
+[data-node-id="210:741"],
+[data-node-id="210:842"] {
+  transform: translateX(-50%) scaleX(var(--bleed-scale));
+  transform-origin: center;
+}
+[data-node-id="210:869"] {
+  transform: translateX(calc(-1 * var(--side-space)));
+}
+[data-node-id="210:868"] {
+  transform: translateX(var(--side-space));
+}
+
+/* Long red lines continue into both side margins. */
+[data-node-id="210:729"] {
+  transform: scaleX(var(--bleed-scale));
+  transform-origin: 799.53125px top;
+}
+[data-node-id="210:739"] {
+  transform: scaleX(var(--bleed-scale));
+  transform-origin: 727.3671875px top;
+}
+
+/* Cloud landscape is separate from the text and oval illustration. */
+.cloud-landscape {
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 1614px;
+  height: 1543px;
+  transform: scaleX(var(--bleed-scale));
+  transform-origin: 800px top;
+  pointer-events: none;
+}
+
+/* Edge bubbles follow the window edges, without changing their proportions. */
+[data-node-id="210:818"],
+[data-node-id="210:852"] {
+  transform: translateX(calc(-1 * var(--side-space)));
+}
+[data-node-id="210:819"],
+[data-node-id="210:853"] {
+  transform: translateX(var(--side-space));
+}

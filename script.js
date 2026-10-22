@@ -1,9 +1,14 @@
-// Preserve the supplied desktop composition at smaller browser widths.
-// Sections and native anchor links remain in normal document flow.
+// Keep the 1140px content grid centered. Only background artwork expands
+// into the side margins; desktop typography and content images stay at 1:1.
 const designWidth = 1200;
 function fitDesktop() {
-  const scale = Math.min(1, document.documentElement.clientWidth / designWidth);
-  document.documentElement.style.setProperty('--page-scale', scale);
+  const viewportWidth = document.documentElement.clientWidth;
+  const layoutWidth = Math.max(designWidth, viewportWidth);
+  const style = document.documentElement.style;
+  style.setProperty('--page-scale', Math.min(1, viewportWidth / designWidth));
+  style.setProperty('--layout-width', `${layoutWidth}px`);
+  style.setProperty('--bleed-scale', layoutWidth / designWidth);
+  style.setProperty('--side-space', `${(layoutWidth - designWidth) / 2}px`);
 }
 fitDesktop();
 window.addEventListener('resize', fitDesktop, { passive: true });
