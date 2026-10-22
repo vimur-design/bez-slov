@@ -508,23 +508,23 @@
     pointer-events: none;
   }
   .site-navigation {
-    padding: calc(16px * var(--page-scale));
+    padding: calc(12px * var(--page-scale)) calc(16px * var(--page-scale));
   }
   .navigation-menu {
     width: calc(358px * var(--page-scale));
-    height: calc(26px * var(--page-scale));
-    padding: calc(8px * var(--page-scale)) calc(10px * var(--page-scale));
+    height: calc(36px * var(--page-scale));
+    padding: calc(10px * var(--page-scale));
     gap: calc(20px * var(--page-scale));
     border-radius: calc(9.75px * var(--page-scale));
   }
-  .navigation-menu a { height: calc(10px * var(--page-scale)); }
-  .navigation-menu a:nth-child(1) { width: calc(65px * var(--page-scale)); }
-  .navigation-menu a:nth-child(2) { width: calc(42px * var(--page-scale)); }
-  .navigation-menu a:nth-child(3) { width: calc(25px * var(--page-scale)); }
+  .navigation-menu a { height: calc(14px * var(--page-scale)); }
+  .navigation-menu a:nth-child(1) { width: calc(81px * var(--page-scale)); }
+  .navigation-menu a:nth-child(2) { width: calc(53px * var(--page-scale)); }
+  .navigation-menu a:nth-child(3) { width: calc(31px * var(--page-scale)); }
   .navigation-label {
-    font-size: calc(8px * var(--page-scale));
+    font-size: calc(10px * var(--page-scale));
     line-height: normal;
-    letter-spacing: calc(-.32px * var(--page-scale));
+    letter-spacing: calc(-.4px * var(--page-scale));
   }
-  .page-section { scroll-margin-top: calc(82px * var(--page-scale)); }
+  .page-section { scroll-margin-top: calc(84px * var(--page-scale)); }
 }
