@@ -28,7 +28,7 @@
 .layout-22{position:absolute;height:1327px;left:calc(50% - 4.5px);top:0;width:1440px;transform:translateX(-50%);}
 .layout-23{position:absolute;height:586px;left:calc(50% + 283px);top:607px;width:641px;transform:translateX(-50%);}
 .layout-24{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;width:100%;height:100%;}
-.layout-25{overflow-wrap:break-word;position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:50px;align-items:flex-start;left:199px;font-style:normal;top:612px;width:1072px;white-space:pre-wrap;}
+.layout-25{overflow-wrap:break-word;position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:30px;align-items:flex-start;left:199px;font-style:normal;top:612px;width:1072px;white-space:pre-wrap;}
 .layout-26{font-family:"Days One", sans-serif;line-height:0.88;min-width:100%;position:relative;flex-shrink:0;color:var(--blue);font-size:100px;letter-spacing:-5px;text-transform:uppercase;width:min-content;}
 .layout-27{}
 .layout-28{font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:31px;position:relative;flex-shrink:0;color:var(--ink);font-size:24px;letter-spacing:-0.96px;width:297px;}
@@ -38,318 +38,310 @@
 .layout-32{position:absolute;align-content:stretch;display:flex;gap:10px;height:138px;align-items:center;justify-content:center;left:48px;padding-left:33px;padding-right:33px;padding-top:59px;padding-bottom:59px;top:0;width:187px;}
 .layout-33{position:absolute;height:138px;left:0;top:0;width:187px;}
 .layout-34{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:1.1;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:25px;text-transform:uppercase;white-space:nowrap;}
-.layout-35{position:absolute;align-content:stretch;display:flex;gap:50px;align-items:center;justify-content:center;left:calc(50% - 4.5px);padding-top:16px;padding-bottom:16px;top:469px;width:1200px;transform:translateX(-50%);}
-.layout-36{height:31px;position:relative;flex-shrink:0;width:131px;}
-.layout-37{overflow-wrap:break-word;position:absolute;font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:31px;left:0;font-style:normal;color:var(--ink);font-size:16px;top:0;letter-spacing:-0.64px;white-space:nowrap;}
-.layout-38{height:31px;position:relative;flex-shrink:0;width:84px;}
-.layout-39{height:31px;position:relative;flex-shrink:0;width:49px;}
-.layout-40{position:absolute;height:762px;left:-127.37px;top:0;width:1455.367px;}
-.layout-41{position:absolute;height:444px;left:31.37px;top:318px;width:443px;}
-.layout-42{overflow-wrap:break-word;position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:50px;align-items:flex-end;left:166.37px;font-style:normal;top:0;width:1131px;}
-.layout-43{font-family:"Days One", sans-serif;line-height:0.89;min-width:100%;position:relative;flex-shrink:0;color:var(--red);font-size:80px;text-align:center;letter-spacing:-4px;text-transform:uppercase;width:min-content;white-space:pre-wrap;}
-.layout-44{align-content:stretch;display:flex;flex-direction:column;gap:30px;align-items:flex-start;position:relative;flex-shrink:0;width:555px;}
-.layout-45{font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:31px;position:relative;flex-shrink:0;color:var(--ink);font-size:24px;letter-spacing:-0.96px;width:100%;}
-.layout-46{font-family:"Days One", sans-serif;line-height:1.1;position:relative;flex-shrink:0;color:var(--red);font-size:33px;text-transform:uppercase;width:100%;}
-.layout-47{position:absolute;left:166.37px;width:557px;height:557px;top:146px;}
-.layout-48{position:absolute;height:356.098px;left:0;top:350.5px;width:1455.367px;}
-.layout-49{position:absolute;inset:-0.79% -0.2% -2.65% -0.53%;}
-.layout-50{position:absolute;height:1126px;left:35px;top:0;width:1131px;}
-.layout-51{overflow-wrap:break-word;position:absolute;font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:31px;left:50%;font-style:normal;color:var(--ink);font-size:24px;text-align:center;top:119px;letter-spacing:-0.96px;width:527px;transform:translateX(-50%);}
-.layout-52{position:absolute;align-content:stretch;display:flex;flex-direction:column;align-items:center;left:0;top:0;width:1131px;}
-.layout-53{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:0.89;font-style:normal;position:relative;flex-shrink:0;color:var(--red);font-size:80px;text-align:center;letter-spacing:-4px;text-transform:uppercase;width:100%;}
-.layout-54{position:absolute;left:167px;width:866px;height:866px;top:260px;}
-.layout-55{position:absolute;height:272.494px;left:804px;top:519px;width:270px;}
-.layout-56{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% + 17px);font-style:normal;color:var(--red);font-size:25px;top:14px;text-transform:uppercase;white-space:nowrap;}
-.layout-57{position:absolute;display:flex;height:272.494px;align-items:center;justify-content:center;left:0;top:0;width:238.388px;}
-.layout-58{flex:none;transform:rotate(-60deg);}
-.layout-59{height:140.405px;position:relative;width:233.586px;}
-.layout-60{position:absolute;inset:-1.06% -1.28% -5.74% 0.81%;}
-.layout-61{position:absolute;height:272.494px;left:86px;top:353px;width:274.387px;}
-.layout-62{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 137.19px);font-style:normal;color:var(--blue);font-size:25px;top:16px;text-transform:uppercase;white-space:nowrap;}
-.layout-63{position:absolute;display:flex;height:272.494px;align-items:center;justify-content:center;left:36px;top:0;width:238.388px;}
-.layout-64{flex:none;transform:rotate(-120deg) scaleY(-1);}
-.layout-65{position:absolute;height:224.635px;left:740px;top:411px;width:235px;}
-.layout-66{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 53.5px);font-style:normal;color:var(--red);font-size:25px;top:0;text-transform:uppercase;white-space:nowrap;}
-.layout-67{position:absolute;display:flex;height:177.635px;align-items:center;justify-content:center;left:0;top:47px;width:149.923px;}
-.layout-68{flex:none;transform:rotate(-84.22deg);}
-.layout-69{height:134px;position:relative;width:164.988px;}
-.layout-70{position:absolute;inset:-2.45% -2.82% -7.42% 1.39%;}
-.layout-71{position:absolute;height:196.608px;left:55px;top:550.48px;width:307px;}
-.layout-72{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 153.5px);font-style:normal;color:var(--blue);font-size:25px;top:9.52px;text-transform:uppercase;white-space:nowrap;}
-.layout-73{position:absolute;display:flex;height:196.608px;align-items:center;justify-content:center;left:117.41px;top:0;width:189.591px;}
-.layout-74{flex:none;transform:rotate(143.64deg);}
-.layout-75{height:154.626px;position:relative;width:121.592px;}
-.layout-76{position:absolute;inset:-0.54% -6.58% -4.36% -0.73%;}
-.layout-77{position:absolute;height:127.1px;left:882.01px;top:810px;width:189.991px;}
-.layout-78{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% + 11px);font-style:normal;color:var(--red);font-size:25px;top:0;text-transform:uppercase;white-space:nowrap;}
-.layout-79{position:absolute;display:flex;height:104.991px;align-items:center;justify-content:center;left:0;top:22.11px;width:133.48px;}
-.layout-80{flex:none;transform:rotate(15deg);}
-.layout-81{height:77.21px;position:relative;width:117.5px;}
-.layout-82{position:absolute;inset:-8.48% -6.1% -6.87% 1.11%;}
-.layout-83{position:absolute;height:118.991px;left:167px;top:214px;width:205.48px;}
-.layout-84{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 102.74px);font-style:normal;color:var(--blue);font-size:25px;top:0;text-transform:uppercase;white-space:nowrap;}
-.layout-85{position:absolute;display:flex;height:104.991px;align-items:center;justify-content:center;left:72px;top:14px;width:133.48px;}
-.layout-86{flex:none;transform:rotate(165deg) scaleY(-1);}
-.layout-87{position:absolute;display:flex;height:101px;align-items:center;justify-content:center;left:900px;top:177px;width:112px;}
-.layout-88{flex:none;transform:rotate(90deg);}
-.layout-89{height:112px;position:relative;width:101px;}
-.layout-90{position:absolute;inset:-3.31% -4.39% -2.56% -3.43%;}
-.layout-91{position:absolute;display:flex;height:97.336px;align-items:center;justify-content:center;left:136px;top:848px;width:103.319px;}
-.layout-92{position:absolute;height:969px;left:-290px;top:0;width:1781px;}
-.layout-93{position:absolute;height:1779px;left:50%;top:0;width:1781px;transform:translateX(-50%);}
-.layout-94{position:absolute;bottom:50%;left:0;right:0;top:0;}
-.layout-95{position:absolute;height:444px;left:201px;top:525px;width:443px;}
-.layout-96{position:absolute;height:144px;left:699px;top:374px;width:143px;}
-.layout-97{overflow-wrap:break-word;position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:50px;align-items:flex-end;left:320px;font-style:normal;top:186px;width:1140px;white-space:pre-wrap;}
-.layout-98{font-family:"Days One", sans-serif;line-height:0.868;min-width:100%;position:relative;flex-shrink:0;color:var(--blue);font-size:80px;text-align:center;letter-spacing:-4px;text-transform:uppercase;width:min-content;}
-.layout-99{font-family:"Days One", sans-serif;line-height:1.1;position:relative;flex-shrink:0;color:var(--blue);font-size:33px;text-transform:uppercase;width:100%;}
-.layout-100{position:absolute;left:329px;border-radius:514px;width:531px;height:531px;top:374px;}
-.layout-101{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;border-radius:514px;width:100%;height:100%;}
-.layout-102{position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:50px;align-items:flex-start;left:30px;top:0;width:1140px;}
-.layout-103{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:0.89;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:80px;text-align:center;letter-spacing:-4px;text-transform:uppercase;width:100%;white-space:pre-wrap;}
-.layout-104{align-content:stretch;display:flex;align-items:center;justify-content:space-between;position:relative;flex-shrink:0;width:100%;}
-.layout-105{overflow-wrap:break-word;align-content:stretch;display:flex;flex-direction:column;gap:10px;align-items:flex-start;font-style:normal;position:relative;flex-shrink:0;width:531px;}
-.layout-106{align-content:stretch;display:flex;font-family:"Days One", sans-serif;gap:10px;align-items:center;line-height:1.1;position:relative;flex-shrink:0;color:var(--blue);font-size:33px;text-transform:uppercase;white-space:nowrap;}
-.layout-107{position:relative;flex-shrink:0;}
-.layout-108{font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:0;min-width:100%;position:relative;flex-shrink:0;color:var(--ink);font-size:24px;letter-spacing:-0.96px;width:min-content;white-space:pre-wrap;}
-.layout-109{line-height:31px;margin-bottom:0;}
-.layout-110{line-height:31px;}
-.layout-111{align-content:stretch;display:flex;height:696px;align-items:flex-start;padding:15px;position:relative;border-radius:40px;flex-shrink:0;width:555px;}
-.layout-112{position:absolute;inset:0;overflow:hidden;pointer-events:none;border-radius:40px;}
-.layout-113{position:absolute;height:134.34%;left:-32.33%;max-width:none;top:-12.05%;width:168.47%;}
-.layout-114{height:666px;position:relative;flex-shrink:0;width:525px;}
+.layout-35{position:absolute;align-content:stretch;display:flex;flex-direction:column;align-items:center;left:169px;padding-top:16px;padding-bottom:16px;top:469px;width:1200px;}
+.layout-36{background-color:rgba(238,181,191,0.5);align-content:stretch;display:flex;gap:50px;height:47px;align-items:center;justify-content:center;padding-left:30px;padding-right:30px;padding-top:8px;padding-bottom:8px;position:relative;border-radius:30px;flex-shrink:0;width:674px;}
+.layout-37{height:31px;position:relative;flex-shrink:0;width:131px;}
+.layout-38{overflow-wrap:break-word;position:absolute;font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:31px;left:0;font-style:normal;color:var(--ink);font-size:16px;top:0;letter-spacing:-0.64px;white-space:nowrap;}
+.layout-39{height:31px;position:relative;flex-shrink:0;width:84px;}
+.layout-40{height:31px;position:relative;flex-shrink:0;width:49px;}
+.layout-41{position:absolute;height:762px;left:-127.37px;top:0;width:1455.367px;}
+.layout-42{position:absolute;height:444px;left:31.37px;top:318px;width:443px;}
+.layout-43{overflow-wrap:break-word;position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:50px;align-items:flex-end;left:166.37px;font-style:normal;top:0;width:1131px;}
+.layout-44{font-family:"Days One", sans-serif;line-height:0.89;min-width:100%;position:relative;flex-shrink:0;color:var(--red);font-size:80px;text-align:center;letter-spacing:-4px;text-transform:uppercase;width:min-content;white-space:pre-wrap;}
+.layout-45{align-content:stretch;display:flex;flex-direction:column;gap:30px;align-items:flex-start;position:relative;flex-shrink:0;width:555px;}
+.layout-46{font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:31px;position:relative;flex-shrink:0;color:var(--ink);font-size:24px;letter-spacing:-0.96px;width:100%;}
+.layout-47{font-family:"Days One", sans-serif;line-height:1.1;position:relative;flex-shrink:0;color:var(--red);font-size:33px;text-transform:uppercase;width:100%;}
+.layout-48{position:absolute;left:166.37px;width:557px;height:557px;top:146px;}
+.layout-49{position:absolute;height:356.098px;left:0;top:350.5px;width:1455.367px;}
+.layout-50{position:absolute;inset:-0.79% -0.2% -2.65% -0.53%;}
+.layout-51{position:absolute;height:1126px;left:35px;top:0;width:1131px;}
+.layout-52{overflow-wrap:break-word;position:absolute;font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:31px;left:50%;font-style:normal;color:var(--ink);font-size:24px;text-align:center;top:119px;letter-spacing:-0.96px;width:527px;transform:translateX(-50%);}
+.layout-53{position:absolute;align-content:stretch;display:flex;flex-direction:column;align-items:center;left:0;top:0;width:1131px;}
+.layout-54{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:0.89;font-style:normal;position:relative;flex-shrink:0;color:var(--red);font-size:80px;text-align:center;letter-spacing:-4px;text-transform:uppercase;width:100%;}
+.layout-55{position:absolute;left:167px;width:866px;height:866px;top:260px;}
+.layout-56{position:absolute;height:272.494px;left:804px;top:519px;width:270px;}
+.layout-57{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% + 17px);font-style:normal;color:var(--red);font-size:25px;top:14px;text-transform:uppercase;white-space:nowrap;}
+.layout-58{position:absolute;display:flex;height:272.494px;align-items:center;justify-content:center;left:0;top:0;width:238.388px;}
+.layout-59{flex:none;transform:rotate(-60deg);}
+.layout-60{height:140.405px;position:relative;width:233.586px;}
+.layout-61{position:absolute;inset:-1.06% -1.28% -5.74% 0.81%;}
+.layout-62{position:absolute;height:272.494px;left:86px;top:353px;width:274.387px;}
+.layout-63{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 137.19px);font-style:normal;color:var(--blue);font-size:25px;top:16px;text-transform:uppercase;white-space:nowrap;}
+.layout-64{position:absolute;display:flex;height:272.494px;align-items:center;justify-content:center;left:36px;top:0;width:238.388px;}
+.layout-65{flex:none;transform:rotate(-120deg) scaleY(-1);}
+.layout-66{position:absolute;height:224.635px;left:740px;top:411px;width:235px;}
+.layout-67{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 53.5px);font-style:normal;color:var(--red);font-size:25px;top:0;text-transform:uppercase;white-space:nowrap;}
+.layout-68{position:absolute;display:flex;height:177.635px;align-items:center;justify-content:center;left:0;top:47px;width:149.923px;}
+.layout-69{flex:none;transform:rotate(-84.22deg);}
+.layout-70{height:134px;position:relative;width:164.988px;}
+.layout-71{position:absolute;inset:-2.45% -2.82% -7.42% 1.39%;}
+.layout-72{position:absolute;height:196.608px;left:55px;top:550.48px;width:307px;}
+.layout-73{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 153.5px);font-style:normal;color:var(--blue);font-size:25px;top:9.52px;text-transform:uppercase;white-space:nowrap;}
+.layout-74{position:absolute;display:flex;height:196.608px;align-items:center;justify-content:center;left:117.41px;top:0;width:189.591px;}
+.layout-75{flex:none;transform:rotate(143.64deg);}
+.layout-76{height:154.626px;position:relative;width:121.592px;}
+.layout-77{position:absolute;inset:-0.54% -6.58% -4.36% -0.73%;}
+.layout-78{position:absolute;height:127.1px;left:882.01px;top:810px;width:189.991px;}
+.layout-79{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% + 11px);font-style:normal;color:var(--red);font-size:25px;top:0;text-transform:uppercase;white-space:nowrap;}
+.layout-80{position:absolute;display:flex;height:104.991px;align-items:center;justify-content:center;left:0;top:22.11px;width:133.48px;}
+.layout-81{flex:none;transform:rotate(15deg);}
+.layout-82{height:77.21px;position:relative;width:117.5px;}
+.layout-83{position:absolute;inset:-8.48% -6.1% -6.87% 1.11%;}
+.layout-84{position:absolute;height:118.991px;left:167px;top:214px;width:205.48px;}
+.layout-85{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 102.74px);font-style:normal;color:var(--blue);font-size:25px;top:0;text-transform:uppercase;white-space:nowrap;}
+.layout-86{position:absolute;display:flex;height:104.991px;align-items:center;justify-content:center;left:72px;top:14px;width:133.48px;}
+.layout-87{flex:none;transform:rotate(165deg) scaleY(-1);}
+.layout-88{position:absolute;display:flex;height:101px;align-items:center;justify-content:center;left:900px;top:177px;width:112px;}
+.layout-89{flex:none;transform:rotate(90deg);}
+.layout-90{height:112px;position:relative;width:101px;}
+.layout-91{position:absolute;inset:-3.31% -4.39% -2.56% -3.43%;}
+.layout-92{position:absolute;display:flex;height:97.336px;align-items:center;justify-content:center;left:136px;top:848px;width:103.319px;}
+.layout-93{position:absolute;height:969px;left:-290px;top:0;width:1781px;}
+.layout-94{position:absolute;height:1779px;left:50%;top:0;width:1781px;transform:translateX(-50%);}
+.layout-95{position:absolute;bottom:50%;left:0;right:0;top:0;}
+.layout-96{position:absolute;height:444px;left:201px;top:525px;width:443px;}
+.layout-97{position:absolute;height:144px;left:699px;top:374px;width:143px;}
+.layout-98{overflow-wrap:break-word;position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:50px;align-items:flex-end;left:320px;font-style:normal;top:186px;width:1140px;white-space:pre-wrap;}
+.layout-99{font-family:"Days One", sans-serif;line-height:0.868;min-width:100%;position:relative;flex-shrink:0;color:var(--blue);font-size:80px;text-align:center;letter-spacing:-4px;text-transform:uppercase;width:min-content;}
+.layout-100{font-family:"Days One", sans-serif;line-height:1.1;position:relative;flex-shrink:0;color:var(--blue);font-size:33px;text-transform:uppercase;width:100%;}
+.layout-101{position:absolute;left:329px;border-radius:514px;width:531px;height:531px;top:374px;}
+.layout-102{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;border-radius:514px;width:100%;height:100%;}
+.layout-103{position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:50px;align-items:flex-start;left:30px;top:0;width:1140px;}
+.layout-104{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:0.89;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:80px;text-align:center;letter-spacing:-4px;text-transform:uppercase;width:100%;white-space:pre-wrap;}
+.layout-105{align-content:stretch;display:flex;align-items:center;justify-content:space-between;position:relative;flex-shrink:0;width:100%;}
+.layout-106{overflow-wrap:break-word;align-content:stretch;display:flex;flex-direction:column;gap:10px;align-items:flex-start;font-style:normal;position:relative;flex-shrink:0;width:531px;}
+.layout-107{align-content:stretch;display:flex;font-family:"Days One", sans-serif;gap:10px;align-items:center;line-height:1.1;position:relative;flex-shrink:0;color:var(--blue);font-size:33px;text-transform:uppercase;white-space:nowrap;}
+.layout-108{position:relative;flex-shrink:0;}
+.layout-109{font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:0;min-width:100%;position:relative;flex-shrink:0;color:var(--ink);font-size:24px;letter-spacing:-0.96px;width:min-content;white-space:pre-wrap;}
+.layout-110{line-height:31px;margin-bottom:0;}
+.layout-111{line-height:31px;}
+.layout-112{align-content:stretch;display:flex;height:696px;align-items:flex-start;padding:15px;position:relative;border-radius:40px;flex-shrink:0;width:555px;}
+.layout-113{position:absolute;inset:0;overflow:hidden;pointer-events:none;border-radius:40px;}
+.layout-114{position:absolute;height:134.34%;left:-32.33%;max-width:none;top:-12.05%;width:168.47%;}
 .layout-115{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;border-radius:40px;width:100%;height:100%;}
-.layout-116{display:flex;align-items:center;justify-content:center;position:relative;flex-shrink:0;}
-.layout-117{flex:none;transform:rotate(180deg) scaleY(-1);}
-.layout-118{height:666px;position:relative;width:525px;}
-.layout-119{overflow-wrap:break-word;align-content:stretch;display:flex;flex-direction:column;gap:9px;align-items:flex-start;font-style:normal;position:relative;flex-shrink:0;width:555px;}
-.layout-120{font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:31px;min-width:100%;position:relative;flex-shrink:0;color:var(--ink);font-size:24px;letter-spacing:-0.96px;width:min-content;white-space:pre-wrap;}
-.layout-121{overflow-wrap:break-word;align-content:stretch;display:flex;flex-direction:column;gap:7px;align-items:flex-start;font-style:normal;position:relative;flex-shrink:0;width:555px;}
-.layout-122{position:absolute;height:1543px;left:-200px;top:0;width:1614px;}
-.layout-123{position:absolute;height:687px;left:296px;top:856px;width:685px;}
-.layout-124{position:absolute;height:800px;left:16px;top:540px;width:801px;}
-.layout-125{position:absolute;height:800px;left:813px;top:400px;width:801px;}
-.layout-126{position:absolute;height:687px;left:886px;top:56px;width:685px;}
-.layout-127{position:absolute;height:687px;left:116px;top:78px;width:685px;}
-.layout-128{position:absolute;height:800px;left:384px;top:0;width:801px;}
-.layout-129{position:absolute;height:800px;left:432px;top:655px;width:801px;}
-.layout-130{position:absolute;height:800px;left:0;top:180px;width:801px;}
-.layout-131{position:absolute;height:800px;left:676px;top:114px;width:801px;}
-.layout-132{position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:50px;align-items:flex-start;left:230px;top:283px;width:1140px;}
-.layout-133{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:0.89;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:80px;text-align:center;letter-spacing:-4px;text-transform:uppercase;width:1124px;white-space:pre-wrap;}
-.layout-134{height:747.12px;position:relative;flex-shrink:0;width:100%;}
-.layout-135{overflow-wrap:break-word;position:absolute;font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:31px;left:0;font-style:normal;color:var(--ink);font-size:24px;top:0;letter-spacing:-0.96px;width:333px;}
-.layout-136{overflow-wrap:break-word;position:absolute;font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:31px;left:812px;font-style:normal;color:var(--ink);font-size:24px;top:500px;letter-spacing:-0.96px;width:328px;}
-.layout-137{position:absolute;height:747.12px;left:155px;top:0;width:626px;}
-.layout-138{position:absolute;display:flex;height:643.12px;align-items:center;justify-content:center;left:0;top:104px;width:549.782px;}
-.layout-139{flex:none;transform:rotate(-15deg);}
-.layout-140{height:553px;position:relative;width:421px;}
-.layout-141{position:absolute;height:624px;left:calc(50% + 102.5px);top:0;width:421px;transform:translateX(-50%);}
-.layout-142{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%;}
-.layout-143{position:absolute;display:flex;height:120px;align-items:center;justify-content:center;left:168px;top:477px;width:134px;}
-.layout-144{height:134px;position:relative;width:120px;}
-.layout-145{position:absolute;inset:-3.09% -3.01% -2.59% -1.94%;}
-.layout-146{position:absolute;display:flex;height:114.799px;align-items:center;justify-content:center;left:920px;top:487px;width:122.345px;}
-.layout-147{flex:none;transform:rotate(-75deg);}
-.layout-148{height:102.15px;position:relative;width:91.478px;}
-.layout-149{position:absolute;inset:-2.64% -5.34% -4.19% -4.32%;}
-.layout-150{position:absolute;left:-48px;width:1251px;height:1251px;top:0;}
-.layout-151{position:absolute;background-color:var(--pink);align-content:stretch;display:flex;height:247px;align-items:center;justify-content:center;left:663px;padding-bottom:69px;padding-left:40px;padding-right:39px;padding-top:70px;border-radius:140px;top:633.89px;width:555px;}
-.layout-152{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:1.1;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:33px;text-align:center;text-transform:uppercase;width:476px;}
-.layout-153{position:absolute;display:flex;height:132.573px;align-items:center;justify-content:center;left:738px;top:568px;width:127.92px;}
-.layout-154{flex:none;transform:rotate(27.04deg);}
-.layout-155{position:absolute;height:157px;left:0;top:1094px;width:162px;}
-.layout-156{position:absolute;height:58px;left:1191px;top:480px;width:60px;}
-.layout-157{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:0.89;left:calc(50% + 22.5px);font-style:normal;color:var(--blue);font-size:80px;text-align:center;top:0;letter-spacing:-4px;text-transform:uppercase;width:1140px;transform:translateX(-50%);}
-.layout-158{position:absolute;background-color:var(--pink);align-content:stretch;display:flex;height:247px;align-items:center;justify-content:center;left:78px;padding-bottom:70px;padding-left:30px;padding-right:49px;padding-top:69px;border-radius:140px;top:119px;width:555px;}
-.layout-159{position:absolute;background-color:var(--pink);align-content:stretch;display:flex;height:247px;align-items:center;justify-content:center;left:663px;padding-bottom:70px;padding-left:30px;padding-right:49px;padding-top:69px;border-radius:140px;top:233.07px;width:555px;}
-.layout-160{position:absolute;background-color:var(--pink);align-content:stretch;display:flex;height:247px;align-items:center;justify-content:center;left:78px;padding-bottom:70px;padding-left:30px;padding-right:49px;padding-top:69px;border-radius:140px;top:791.93px;width:555px;}
-.layout-161{position:absolute;display:flex;height:114.799px;align-items:center;justify-content:center;left:78px;top:74px;width:122.345px;}
-.layout-162{position:absolute;display:flex;height:112.943px;align-items:center;justify-content:center;left:1079.31px;top:182px;width:103.713px;}
-.layout-163{flex:none;transform:rotate(172.7deg) scaleY(-1);}
-.layout-164{position:absolute;display:flex;height:114.799px;align-items:center;justify-content:center;left:101px;top:963px;width:122.345px;}
-.layout-165{flex:none;transform:rotate(-75deg) scaleY(-1);}
-.layout-166{position:absolute;height:493px;left:162px;top:338px;width:581px;}
-.layout-167{position:absolute;height:493px;left:0;top:0;width:581px;}
-.layout-168{position:absolute;left:112px;width:357px;height:357px;top:51px;}
-.layout-169{position:absolute;height:1898px;left:-291px;top:0;width:1781px;}
-.layout-170{position:absolute;display:flex;align-items:center;justify-content:center;left:981.91px;width:452.541px;height:452.541px;top:99.42px;}
-.layout-171{flex:none;transform:rotate(9.61deg);}
-.layout-172{background-color:var(--dark-blue);position:relative;border-radius:40px;width:392.528px;height:392.528px;}
-.layout-173{position:absolute;height:1779px;left:50%;top:119px;width:1781px;transform:translateX(-50%);}
-.layout-174{position:absolute;height:58px;left:916px;top:12px;width:60px;}
-.layout-175{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:0.89;left:calc(50% - 569.5px);font-style:normal;color:var(--blue);font-size:80px;top:393px;letter-spacing:-4px;text-transform:uppercase;width:692px;}
-.layout-176{position:absolute;display:flex;height:87.167px;align-items:center;justify-content:center;left:681px;top:276px;width:92.897px;}
-.layout-177{height:77.562px;position:relative;width:69.459px;}
-.layout-178{position:absolute;inset:-5.15% -8.47% -4.16% -4.34%;}
-.layout-179{position:absolute;display:flex;align-items:center;justify-content:center;left:942.12px;width:452.541px;height:452.541px;top:41.06px;}
-.layout-180{position:relative;border-radius:40px;width:392.528px;height:392.528px;}
-.layout-181{position:absolute;display:flex;height:130.587px;align-items:center;justify-content:center;left:933px;top:0;width:126.786px;}
-.layout-182{flex:none;transform:rotate(30deg);}
-.layout-183{height:99.397px;position:relative;width:89.012px;}
-.layout-184{position:absolute;inset:-3.99% -6.53% -3.83% -3.85%;}
-.layout-185{position:absolute;height:980.866px;left:-74.11px;top:2076px;width:559.113px;}
-.layout-186{position:absolute;inset:-0.11% -0.14% -0.19% -0.36%;}
-.layout-187{position:absolute;background-color:var(--pink);height:1592px;left:-15px;top:278px;width:420px;}
-.layout-188{position:absolute;height:756.28px;left:-244px;top:0px;width:880.926px;}
-.layout-189{position:absolute;left:505.47px;width:375.453px;height:375.453px;top:354px;}
-.layout-190{position:absolute;height:330.165px;left:0;top:405.13px;width:327.243px;}
-.layout-191{position:absolute;height:581.311px;left:calc(50% - 0.96px);top:174.97px;width:505px;transform:translateX(-50%);}
-.layout-192{position:absolute;height:377px;left:calc(50% - 2.46px);top:258px;width:412px;transform:translateX(-50%);}
-.layout-193{overflow-wrap:break-word;position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:18px;align-items:flex-start;left:260px;font-style:normal;top:65px;width:358px;white-space:pre-wrap;}
-.layout-194{font-family:"Days One", sans-serif;line-height:0.88;min-width:100%;position:relative;flex-shrink:0;color:var(--blue);font-size:52px;letter-spacing:-2.6px;text-transform:uppercase;width:min-content;}
-.layout-195{font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:13px;position:relative;flex-shrink:0;color:var(--ink);font-size:10px;letter-spacing:-0.4px;width:171px;}
-.layout-196{position:absolute;height:84.216px;left:470px;top:235px;width:142.253px;}
-.layout-197{position:absolute;height:26.029px;left:19.98px;top:53.27px;width:30.871px;}
-.layout-198{position:absolute;height:9.763px;left:0;top:74.45px;width:13.756px;}
-.layout-199{position:absolute;align-content:stretch;display:flex;gap:10px;height:83.534px;align-items:center;justify-content:center;left:29.06px;padding-left:17px;padding-right:17px;padding-top:36px;padding-bottom:36px;top:0;width:113.195px;}
-.layout-200{position:absolute;height:83.534px;left:0;top:0;width:113.195px;}
-.layout-201{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:1.1;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:12px;text-transform:uppercase;white-space:nowrap;}
-.layout-202{position:absolute;align-content:stretch;display:flex;flex-direction:column;align-items:center;left:calc(50% - 1.46px);padding-top:16px;padding-bottom:16px;top:0;width:390px;transform:translateX(-50%);}
-.layout-203{background-color:#eeb5bf;align-content:stretch;display:flex;gap:20px;align-items:center;justify-content:center;padding-left:10px;padding-right:10px;padding-top:8px;padding-bottom:8px;position:relative;border-radius:9.75px;flex-shrink:0;width:358px;}
-.layout-204{height:10px;position:relative;flex-shrink:0;width:65px;}
-.layout-205{overflow-wrap:break-word;position:absolute;font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:normal;left:0;font-style:normal;color:var(--ink);font-size:8px;top:0;letter-spacing:-0.32px;white-space:nowrap;}
-.layout-206{height:10px;position:relative;flex-shrink:0;width:42px;}
-.layout-207{height:10px;position:relative;flex-shrink:0;width:25px;}
-.layout-208{position:absolute;height:362px;left:-118px;top:0px;width:728.156px;}
-.layout-209{position:absolute;left:11px;width:240px;height:240px;top:122px;}
-.layout-210{overflow-wrap:break-word;position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:16px;align-items:flex-end;left:134px;font-style:normal;top:0;width:358px;}
-.layout-211{font-family:"Days One", sans-serif;line-height:0.89;min-width:100%;position:relative;flex-shrink:0;color:var(--red);font-size:26px;text-align:center;letter-spacing:-1.3px;text-transform:uppercase;width:min-content;white-space:pre-wrap;}
-.layout-212{align-content:stretch;display:flex;flex-direction:column;gap:10px;align-items:flex-start;position:relative;flex-shrink:0;width:171px;}
-.layout-213{font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:13px;position:relative;flex-shrink:0;color:var(--ink);font-size:10px;letter-spacing:-0.4px;width:100%;white-space:pre-wrap;}
-.layout-214{font-family:"Days One", sans-serif;line-height:1.1;position:relative;flex-shrink:0;color:var(--red);font-size:12px;text-transform:uppercase;width:100%;}
-.layout-215{position:absolute;left:83.24px;width:278.681px;height:278.681px;top:34px;}
-.layout-216{position:absolute;height:215.599px;left:0;top:136.32px;width:728.156px;}
-.layout-217{position:absolute;inset:-0.66% -0.21% -2.1% -0.54%;}
-.layout-218{position:absolute;left:55.7px;width:303.1px;height:303.1px;top:82.34px;}
-.layout-219{position:absolute;height:379px;left:16px;top:0px;width:358px;}
-.layout-220{overflow-wrap:break-word;position:absolute;font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:13px;left:50%;font-style:normal;color:var(--ink);font-size:10px;text-align:center;top:39px;letter-spacing:-0.4px;width:230px;transform:translateX(-50%);}
-.layout-221{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:0.89;left:50%;font-style:normal;color:var(--red);font-size:26px;text-align:center;top:0;letter-spacing:-1.3px;text-transform:uppercase;width:358px;transform:translateX(-50%);}
-.layout-222{position:absolute;height:84.825px;left:259px;top:222px;width:104px;}
-.layout-223{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 14px);font-style:normal;color:var(--red);font-size:10px;top:0;text-transform:uppercase;white-space:nowrap;}
-.layout-224{position:absolute;display:flex;height:82.08px;align-items:center;justify-content:center;left:0;top:2.75px;width:71.436px;}
-.layout-225{height:41.65px;position:relative;width:70.731px;}
-.layout-226{position:absolute;inset:-1.29% -1.49% -6.85% 0.72%;}
-.layout-227{position:absolute;height:95.373px;left:5px;top:144px;width:107.383px;}
-.layout-228{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 53.69px);font-style:normal;color:var(--blue);font-size:10px;top:4.11px;text-transform:uppercase;white-space:nowrap;}
-.layout-229{position:absolute;display:flex;height:95.373px;align-items:center;justify-content:center;left:23.95px;top:0;width:83.436px;}
-.layout-230{height:49.142px;position:relative;width:81.755px;}
-.layout-231{position:absolute;height:79.813px;left:245.25px;top:173px;width:97.75px;}
-.layout-232{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 47.13px);font-style:normal;color:var(--red);font-size:10px;top:0;text-transform:uppercase;white-space:nowrap;}
-.layout-233{position:absolute;display:flex;height:62.172px;align-items:center;justify-content:center;left:0;top:17.64px;width:52.473px;}
-.layout-234{height:46.9px;position:relative;width:57.746px;}
-.layout-235{position:absolute;height:68.813px;left:5px;top:239px;width:107.355px;}
-.layout-236{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 43.68px);font-style:normal;color:var(--blue);font-size:10px;top:0;text-transform:uppercase;white-space:nowrap;}
-.layout-237{position:absolute;display:flex;height:68.813px;align-items:center;justify-content:center;left:41px;top:0;width:66.357px;}
-.layout-238{height:54.119px;position:relative;width:42.557px;}
-.layout-239{position:absolute;height:49.327px;left:294.95px;top:309px;width:68.045px;}
-.layout-240{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 12.98px);font-style:normal;color:var(--red);font-size:10px;top:0;text-transform:uppercase;white-space:nowrap;}
-.layout-241{position:absolute;display:flex;height:36.747px;align-items:center;justify-content:center;left:0;top:12.58px;width:46.718px;}
-.layout-242{height:27.024px;position:relative;width:41.125px;}
-.layout-243{position:absolute;height:47.888px;left:40px;top:99px;width:76.619px;}
-.layout-244{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 38.31px);font-style:normal;color:var(--blue);font-size:10px;top:0;text-transform:uppercase;white-space:nowrap;}
-.layout-245{position:absolute;display:flex;height:36.747px;align-items:center;justify-content:center;left:29.9px;top:11.14px;width:46.718px;}
-.layout-246{position:absolute;display:flex;height:44px;align-items:center;justify-content:center;left:292px;top:90px;width:48px;}
-.layout-247{height:48px;position:relative;width:44px;}
-.layout-248{position:absolute;inset:-1.63% -4.43% -2.79% -2.18%;}
-.layout-249{position:absolute;display:flex;height:51.658px;align-items:center;justify-content:center;left:18.81px;top:327.14px;width:54.833px;}
-.layout-250{height:45.72px;position:relative;width:41.23px;}
-.layout-251{position:absolute;inset:-2.11% -3.08% -2.6% -2.2%;}
-.layout-252{position:absolute;height:46.8px;left:134.93px;top:121.77px;width:46.475px;}
-.layout-253{position:absolute;height:315px;left:-94px;top:0px;width:578px;}
-.layout-254{position:absolute;left:50%;width:578px;height:578px;top:0;transform:translateX(-50%);}
-.layout-255{position:absolute;height:144.3px;left:67.07px;top:170.85px;width:143.975px;}
-.layout-256{overflow-wrap:break-word;position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:16px;align-items:flex-end;left:110px;font-style:normal;top:60px;width:358px;white-space:pre-wrap;}
-.layout-257{font-family:"Days One", sans-serif;line-height:0.89;min-width:100%;position:relative;flex-shrink:0;color:var(--blue);font-size:26px;text-align:center;letter-spacing:-1.3px;text-transform:uppercase;width:min-content;}
-.layout-258{font-family:"Days One", sans-serif;line-height:1.1;position:relative;flex-shrink:0;color:var(--blue);font-size:12px;text-transform:uppercase;width:100%;}
-.layout-259{font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:13px;position:relative;flex-shrink:0;color:var(--ink);font-size:10px;letter-spacing:-0.4px;width:100%;}
-.layout-260{position:absolute;left:16px;border-radius:167.05px;width:171px;height:171px;top:122px;}
-.layout-261{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;border-radius:167.05px;width:100%;height:100%;}
-.layout-262{position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:16px;align-items:center;left:10px;top:0px;width:370.5px;}
-.layout-263{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:0.89;min-width:100%;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:26px;text-align:center;letter-spacing:-1.3px;text-transform:uppercase;width:min-content;white-space:pre-wrap;}
-.layout-264{align-content:stretch;display:flex;align-items:center;justify-content:space-between;position:relative;flex-shrink:0;width:358px;}
-.layout-265{overflow-wrap:break-word;align-content:stretch;display:flex;flex-direction:column;gap:4px;align-items:flex-start;font-style:normal;position:relative;flex-shrink:0;width:171px;}
-.layout-266{align-content:stretch;display:flex;font-family:"Days One", sans-serif;gap:4px;align-items:center;line-height:1.1;position:relative;flex-shrink:0;color:var(--blue);font-size:12px;text-align:center;text-transform:uppercase;width:100%;white-space:nowrap;}
-.layout-267{font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:13px;position:relative;flex-shrink:0;color:var(--ink);font-size:10px;letter-spacing:-0.4px;width:171px;white-space:pre-wrap;}
-.layout-268{align-content:stretch;display:flex;height:214px;align-items:flex-start;padding:4px;position:relative;border-radius:11.997px;flex-shrink:0;width:171px;}
-.layout-269{position:absolute;inset:0;overflow:hidden;pointer-events:none;border-radius:11.997px;}
-.layout-270{height:206px;position:relative;flex-shrink:0;width:163px;}
-.layout-271{align-content:stretch;display:flex;height:226px;align-items:flex-start;padding:4px;position:relative;border-radius:13px;flex-shrink:0;width:171px;}
-.layout-272{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;border-radius:13px;width:100%;height:100%;}
-.layout-273{height:218px;position:relative;width:163px;}
-.layout-274{font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:0;position:relative;flex-shrink:0;color:var(--ink);font-size:10px;letter-spacing:-0.4px;width:171px;white-space:pre-wrap;}
-.layout-275{line-height:13px;margin-bottom:0;}
-.layout-276{line-height:13px;}
-.layout-277{align-content:stretch;display:flex;height:223px;align-items:flex-start;padding:4px;position:relative;border-radius:13px;flex-shrink:0;width:171px;}
-.layout-278{height:215px;position:relative;flex-shrink:0;width:163px;}
-.layout-279{position:absolute;display:flex;height:31.634px;align-items:center;justify-content:center;left:316.23px;top:84.87px;width:33.579px;}
-.layout-280{height:27.998px;position:relative;width:25.248px;}
-.layout-281{position:absolute;inset:-3.36% -6.25% -3.87% -5.01%;}
-.layout-282{position:absolute;display:flex;height:33.579px;align-items:center;justify-content:center;left:231.4px;top:198.95px;width:31.634px;}
-.layout-283{position:absolute;height:1.312px;left:310.54px;top:144.66px;width:1.036px;}
-.layout-284{position:absolute;height:1.3px;left:278.53px;top:155.72px;width:2.275px;}
-.layout-285{position:absolute;height:29.9px;left:305.5px;top:602.67px;width:30.875px;}
-.layout-286{position:absolute;height:654.173px;left:-65px;top:0px;width:524.548px;}
-.layout-287{position:absolute;height:223.275px;left:96.2px;top:430.9px;width:222.625px;}
-.layout-288{position:absolute;height:260px;left:5.2px;top:328.2px;width:260.325px;}
-.layout-289{position:absolute;height:260px;left:264.22px;top:282.7px;width:260.325px;}
-.layout-290{position:absolute;height:223.275px;left:287.95px;top:68.9px;width:222.625px;}
-.layout-291{position:absolute;height:223.275px;left:37.7px;top:76.05px;width:222.625px;}
-.layout-292{position:absolute;height:260px;left:124.8px;top:50.7px;width:260.325px;}
-.layout-293{position:absolute;height:260px;left:140.4px;top:365.57px;width:260.325px;}
-.layout-294{position:absolute;height:260px;left:0;top:109.2px;width:260.325px;}
-.layout-295{position:absolute;height:260px;left:219.7px;top:87.75px;width:260.325px;}
-.layout-296{position:absolute;left:355.22px;width:59.475px;height:59.475px;top:0;}
-.layout-297{position:absolute;height:29.9px;left:81.57px;top:51.67px;width:30.875px;}
-.layout-298{position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:16px;align-items:flex-start;left:81px;top:141.82px;width:358px;}
-.layout-299{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:0.89;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:26px;text-align:center;letter-spacing:-1.3px;text-transform:uppercase;width:100%;white-space:pre-wrap;}
-.layout-300{height:332.841px;position:relative;flex-shrink:0;width:100%;}
-.layout-301{overflow-wrap:break-word;position:absolute;font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:13px;left:0;font-style:normal;color:var(--ink);font-size:10px;top:0;letter-spacing:-0.4px;width:119px;}
-.layout-302{overflow-wrap:break-word;position:absolute;font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:13px;left:239px;font-style:normal;color:var(--ink);font-size:10px;top:249px;letter-spacing:-0.4px;width:119px;}
-.layout-303{position:absolute;height:295.841px;left:22px;top:37px;width:240px;}
-.layout-304{position:absolute;display:flex;height:254.84px;align-items:center;justify-content:center;left:0;top:41px;width:217.854px;}
-.layout-305{height:219.13px;position:relative;width:166.824px;}
-.layout-306{position:absolute;height:247px;left:calc(50% + 36.5px);top:0;width:167px;transform:translateX(-50%);}
-.layout-307{position:absolute;display:flex;height:48px;align-items:center;justify-content:center;left:65px;top:151.95px;width:53px;}
-.layout-308{height:53px;position:relative;width:48px;}
-.layout-309{position:absolute;inset:-2.37% -2.36% -3.02% -2.85%;}
-.layout-310{position:absolute;display:flex;height:45.49px;align-items:center;justify-content:center;left:313.7px;top:210.06px;width:48.48px;}
-.layout-311{height:40.478px;position:relative;width:36.249px;}
-.layout-312{position:absolute;inset:-2.97% -4.63% -3.85% -3.56%;}
-.layout-313{position:absolute;height:407.324px;left:-15.6px;top:0px;width:406.57px;}
-.layout-314{position:absolute;background-color:var(--pink);align-content:stretch;display:flex;height:80px;align-items:center;justify-content:center;left:215.6px;padding-bottom:23px;padding-top:24px;padding-left:22px;padding-right:22px;border-radius:50px;top:207px;width:174px;}
-.layout-315{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:1.1;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:12px;text-align:center;text-transform:uppercase;width:130px;}
-.layout-316{position:absolute;display:flex;height:43.086px;align-items:center;justify-content:center;left:239.85px;top:185.35px;width:41.574px;}
-.layout-317{height:33.199px;position:relative;width:29.73px;}
-.layout-318{position:absolute;inset:-2.91% -5.34% -4.19% -4.32%;}
-.layout-319{position:absolute;height:51.025px;left:0;top:356.3px;width:52.65px;}
-.layout-320{position:absolute;height:18.85px;left:387.07px;top:156.75px;width:19.5px;}
-.layout-321{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:0.89;left:calc(50% + 7.31px);font-style:normal;color:var(--blue);font-size:26px;text-align:center;top:0;letter-spacing:-1.3px;text-transform:uppercase;width:358px;transform:translateX(-50%);}
-.layout-322{position:absolute;background-color:var(--pink);align-content:stretch;display:flex;height:81px;align-items:center;justify-content:center;left:31.6px;padding-left:15px;padding-right:15px;padding-top:24px;padding-bottom:24px;border-radius:50px;top:39px;width:174px;}
-.layout-323{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:1.1;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:12px;text-align:center;text-transform:uppercase;width:144px;white-space:pre-wrap;}
-.layout-324{position:absolute;background-color:var(--pink);align-content:stretch;display:flex;height:81px;align-items:center;justify-content:center;left:215.6px;padding-left:18px;padding-right:17px;padding-top:24px;padding-bottom:24px;border-radius:50px;top:76px;width:174px;}
-.layout-325{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:1.1;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:12px;text-align:center;text-transform:uppercase;width:139px;}
-.layout-326{position:absolute;background-color:var(--pink);align-content:stretch;display:flex;height:80px;align-items:center;justify-content:center;left:31.6px;padding-bottom:24px;padding-left:10px;padding-right:9px;padding-top:23px;border-radius:50px;top:258px;width:174px;}
-.layout-327{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:1.1;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:12px;text-align:center;text-transform:uppercase;width:154.7px;}
-.layout-328{position:absolute;display:flex;height:37.31px;align-items:center;justify-content:center;left:25.35px;top:24.8px;width:39.762px;}
-.layout-329{position:absolute;display:flex;height:36.706px;align-items:center;justify-content:center;left:350.78px;top:59.9px;width:33.707px;}
-.layout-330{position:absolute;display:flex;height:37.31px;align-items:center;justify-content:center;left:32.82px;top:313.73px;width:39.762px;}
-.layout-331{position:absolute;height:160.225px;left:52.65px;top:110.6px;width:188.825px;}
-.layout-332{position:absolute;height:160.225px;left:0;top:0;width:188.825px;}
-.layout-333{position:absolute;left:36.4px;width:116.025px;height:116.025px;top:16.57px;}
-.layout-334{position:absolute;height:616.851px;left:-94.57px;top:0px;width:578.825px;}
-.layout-335{position:absolute;display:flex;align-items:center;justify-content:center;left:319.12px;width:147.076px;height:147.076px;top:32.31px;}
-.layout-336{background-color:#cde5f9;position:relative;border-radius:13px;width:127.572px;height:127.572px;}
-.layout-337{position:absolute;height:578.175px;left:50%;top:38.68px;width:578.825px;transform:translateX(-50%);}
-.layout-338{position:absolute;height:18.85px;left:297.7px;top:3.9px;width:19.5px;}
-.layout-339{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:0.89;left:calc(50% - 178.84px);font-style:normal;color:var(--blue);font-size:26px;top:126.93px;letter-spacing:-1.3px;text-transform:uppercase;width:224.9px;}
-.layout-340{position:absolute;display:flex;height:28.329px;align-items:center;justify-content:center;left:221.32px;top:89.7px;width:30.191px;}
-.layout-341{height:25.208px;position:relative;width:22.574px;}
-.layout-342{position:absolute;display:flex;align-items:center;justify-content:center;left:306.19px;width:147.076px;height:147.076px;top:13.35px;}
-.layout-343{position:relative;border-radius:13px;width:127.572px;height:127.572px;}
-.layout-344{position:absolute;display:flex;height:42.441px;align-items:center;justify-content:center;left:303.22px;top:0;width:41.205px;}
-.layout-345{height:32.304px;position:relative;width:28.929px;}
-.layout-346{position:absolute;inset:-3.99% -6.53% -3.98% -3.85%;}
+.layout-116{overflow-wrap:break-word;align-content:stretch;display:flex;flex-direction:column;gap:9px;align-items:flex-start;font-style:normal;position:relative;flex-shrink:0;width:555px;}
+.layout-117{font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:31px;min-width:100%;position:relative;flex-shrink:0;color:var(--ink);font-size:24px;letter-spacing:-0.96px;width:min-content;white-space:pre-wrap;}
+.layout-118{overflow-wrap:break-word;align-content:stretch;display:flex;flex-direction:column;gap:7px;align-items:flex-start;font-style:normal;position:relative;flex-shrink:0;width:555px;}
+.layout-119{position:absolute;height:1543px;left:-200px;top:0;width:1614px;}
+.layout-120{position:absolute;height:687px;left:296px;top:856px;width:685px;}
+.layout-121{position:absolute;height:800px;left:16px;top:540px;width:801px;}
+.layout-122{position:absolute;height:800px;left:813px;top:400px;width:801px;}
+.layout-123{position:absolute;height:687px;left:886px;top:56px;width:685px;}
+.layout-124{position:absolute;height:687px;left:116px;top:78px;width:685px;}
+.layout-125{position:absolute;height:800px;left:384px;top:0;width:801px;}
+.layout-126{position:absolute;height:800px;left:432px;top:655px;width:801px;}
+.layout-127{position:absolute;height:800px;left:0;top:180px;width:801px;}
+.layout-128{position:absolute;height:800px;left:676px;top:114px;width:801px;}
+.layout-129{position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:50px;align-items:flex-start;left:230px;top:283px;width:1140px;}
+.layout-130{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:0.89;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:80px;text-align:center;letter-spacing:-4px;text-transform:uppercase;width:1124px;white-space:pre-wrap;}
+.layout-131{height:747.12px;position:relative;flex-shrink:0;width:100%;}
+.layout-132{overflow-wrap:break-word;position:absolute;font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:31px;left:0;font-style:normal;color:var(--ink);font-size:24px;top:0;letter-spacing:-0.96px;width:333px;}
+.layout-133{overflow-wrap:break-word;position:absolute;font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:31px;left:812px;font-style:normal;color:var(--ink);font-size:24px;top:500px;letter-spacing:-0.96px;width:328px;}
+.layout-134{position:absolute;height:747.12px;left:155px;top:0;width:626px;}
+.layout-135{position:absolute;display:flex;height:643.12px;align-items:center;justify-content:center;left:0;top:104px;width:549.782px;}
+.layout-136{flex:none;transform:rotate(-15deg);}
+.layout-137{height:553px;position:relative;width:421px;}
+.layout-138{position:absolute;height:624px;left:calc(50% + 102.5px);top:0;width:421px;transform:translateX(-50%);}
+.layout-139{position:absolute;display:block;inset:0;max-width:none;width:100%;height:100%;}
+.layout-140{position:absolute;display:flex;height:120px;align-items:center;justify-content:center;left:168px;top:477px;width:134px;}
+.layout-141{height:134px;position:relative;width:120px;}
+.layout-142{position:absolute;inset:-3.09% -3.01% -2.59% -1.94%;}
+.layout-143{position:absolute;display:flex;height:114.799px;align-items:center;justify-content:center;left:920px;top:487px;width:122.345px;}
+.layout-144{flex:none;transform:rotate(-75deg);}
+.layout-145{height:102.15px;position:relative;width:91.478px;}
+.layout-146{position:absolute;inset:-2.64% -5.34% -4.19% -4.32%;}
+.layout-147{position:absolute;left:-48px;width:1251px;height:1251px;top:0;}
+.layout-148{position:absolute;background-color:var(--pink);align-content:stretch;display:flex;height:247px;align-items:center;justify-content:center;left:663px;padding-bottom:69px;padding-left:40px;padding-right:39px;padding-top:70px;border-radius:140px;top:633.89px;width:555px;}
+.layout-149{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:1.1;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:33px;text-align:center;text-transform:uppercase;width:476px;}
+.layout-150{position:absolute;display:flex;height:132.573px;align-items:center;justify-content:center;left:738px;top:568px;width:127.92px;}
+.layout-151{flex:none;transform:rotate(27.04deg);}
+.layout-152{position:absolute;height:157px;left:0;top:1094px;width:162px;}
+.layout-153{position:absolute;height:58px;left:1191px;top:480px;width:60px;}
+.layout-154{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:0.89;left:calc(50% + 22.5px);font-style:normal;color:var(--blue);font-size:80px;text-align:center;top:0;letter-spacing:-4px;text-transform:uppercase;width:1140px;transform:translateX(-50%);}
+.layout-155{position:absolute;background-color:var(--pink);align-content:stretch;display:flex;height:247px;align-items:center;justify-content:center;left:78px;padding-bottom:70px;padding-left:30px;padding-right:49px;padding-top:69px;border-radius:140px;top:119px;width:555px;}
+.layout-156{position:absolute;background-color:var(--pink);align-content:stretch;display:flex;height:247px;align-items:center;justify-content:center;left:663px;padding-bottom:70px;padding-left:30px;padding-right:49px;padding-top:69px;border-radius:140px;top:233.07px;width:555px;}
+.layout-157{position:absolute;background-color:var(--pink);align-content:stretch;display:flex;height:247px;align-items:center;justify-content:center;left:78px;padding-bottom:70px;padding-left:30px;padding-right:49px;padding-top:69px;border-radius:140px;top:791.93px;width:555px;}
+.layout-158{position:absolute;display:flex;height:114.799px;align-items:center;justify-content:center;left:78px;top:74px;width:122.345px;}
+.layout-159{position:absolute;display:flex;height:112.943px;align-items:center;justify-content:center;left:1079.31px;top:182px;width:103.713px;}
+.layout-160{flex:none;transform:rotate(172.7deg) scaleY(-1);}
+.layout-161{position:absolute;display:flex;height:114.799px;align-items:center;justify-content:center;left:101px;top:963px;width:122.345px;}
+.layout-162{flex:none;transform:rotate(-75deg) scaleY(-1);}
+.layout-163{position:absolute;height:493px;left:162px;top:338px;width:581px;}
+.layout-164{position:absolute;height:493px;left:0;top:0;width:581px;}
+.layout-165{position:absolute;left:112px;width:357px;height:357px;top:51px;}
+.layout-166{position:absolute;height:1898px;left:-291px;top:0;width:1781px;}
+.layout-167{position:absolute;display:flex;align-items:center;justify-content:center;left:981.91px;width:452.541px;height:452.541px;top:99.42px;}
+.layout-168{flex:none;transform:rotate(9.61deg);}
+.layout-169{background-color:var(--dark-blue);position:relative;border-radius:40px;width:392.528px;height:392.528px;}
+.layout-170{position:absolute;height:1779px;left:50%;top:119px;width:1781px;transform:translateX(-50%);}
+.layout-171{position:absolute;height:58px;left:916px;top:12px;width:60px;}
+.layout-172{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:0.89;left:calc(50% - 569.5px);font-style:normal;color:var(--blue);font-size:80px;top:393px;letter-spacing:-4px;text-transform:uppercase;width:692px;}
+.layout-173{position:absolute;display:flex;height:87.167px;align-items:center;justify-content:center;left:681px;top:276px;width:92.897px;}
+.layout-174{height:77.562px;position:relative;width:69.459px;}
+.layout-175{position:absolute;inset:-5.15% -8.47% -4.16% -4.34%;}
+.layout-176{position:absolute;display:flex;align-items:center;justify-content:center;left:942.12px;width:452.541px;height:452.541px;top:41.06px;}
+.layout-177{position:relative;border-radius:40px;width:392.528px;height:392.528px;}
+.layout-178{position:absolute;display:flex;height:130.587px;align-items:center;justify-content:center;left:933px;top:0;width:126.786px;}
+.layout-179{flex:none;transform:rotate(30deg);}
+.layout-180{height:99.397px;position:relative;width:89.012px;}
+.layout-181{position:absolute;inset:-3.99% -6.53% -3.83% -3.85%;}
+.layout-182{position:absolute;height:980.866px;left:-74.11px;top:2044px;width:559.113px;}
+.layout-183{position:absolute;inset:-0.11% -0.14% -0.19% -0.36%;}
+.layout-184{position:absolute;background-color:var(--pink);height:1592px;left:-15px;top:278px;width:420px;}
+.layout-185{position:absolute;height:756.28px;left:-244px;top:0px;width:880.926px;}
+.layout-186{position:absolute;left:505.47px;width:375.453px;height:375.453px;top:314px;}
+.layout-187{position:absolute;height:330.165px;left:0;top:365.13px;width:327.243px;}
+.layout-188{position:absolute;height:581.311px;left:calc(50% - 0.96px);top:134.97px;width:505px;transform:translateX(-50%);}
+.layout-189{position:absolute;height:377px;left:calc(50% - 2.46px);top:238px;width:412px;transform:translateX(-50%);}
+.layout-190{overflow-wrap:break-word;position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:18px;align-items:flex-start;left:260px;font-style:normal;top:85px;width:358px;white-space:pre-wrap;}
+.layout-191{font-family:"Days One", sans-serif;line-height:0.88;min-width:100%;position:relative;flex-shrink:0;color:var(--blue);font-size:52px;letter-spacing:-2.6px;text-transform:uppercase;width:min-content;}
+.layout-192{font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:13px;position:relative;flex-shrink:0;color:var(--ink);font-size:10px;letter-spacing:-0.4px;width:171px;}
+.layout-193{position:absolute;height:84.216px;left:470px;top:215px;width:142.253px;}
+.layout-194{position:absolute;height:26.029px;left:19.98px;top:53.27px;width:30.871px;}
+.layout-195{position:absolute;height:9.763px;left:0;top:74.45px;width:13.756px;}
+.layout-196{position:absolute;align-content:stretch;display:flex;gap:10px;height:83.534px;align-items:center;justify-content:center;left:29.06px;padding-left:17px;padding-right:17px;padding-top:36px;padding-bottom:36px;top:0;width:113.195px;}
+.layout-197{position:absolute;height:83.534px;left:0;top:0;width:113.195px;}
+.layout-198{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:1.1;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:12px;text-transform:uppercase;white-space:nowrap;}
+.layout-199{position:absolute;align-content:stretch;display:flex;flex-direction:column;align-items:center;left:calc(50% - 1.46px);padding-top:12px;padding-bottom:12px;top:0;width:390px;transform:translateX(-50%);}
+.layout-200{background-color:rgba(238,181,191,0.5);align-content:stretch;display:flex;gap:20px;height:36px;align-items:center;justify-content:center;padding:10px;position:relative;border-radius:9.75px;flex-shrink:0;width:358px;}
+.layout-201{align-content:stretch;display:flex;align-items:center;justify-content:center;position:relative;flex-shrink:0;}
+.layout-202{overflow-wrap:break-word;font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:13px;font-style:normal;position:relative;flex-shrink:0;color:var(--ink);font-size:10px;letter-spacing:-0.4px;white-space:nowrap;}
+.layout-203{position:absolute;height:362px;left:-118px;top:0px;width:728.156px;}
+.layout-204{position:absolute;left:11px;width:240px;height:240px;top:122px;}
+.layout-205{overflow-wrap:break-word;position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:16px;align-items:flex-end;left:134px;font-style:normal;top:0;width:358px;}
+.layout-206{font-family:"Days One", sans-serif;line-height:0.89;min-width:100%;position:relative;flex-shrink:0;color:var(--red);font-size:26px;text-align:center;letter-spacing:-1.3px;text-transform:uppercase;width:min-content;white-space:pre-wrap;}
+.layout-207{align-content:stretch;display:flex;flex-direction:column;gap:10px;align-items:flex-start;position:relative;flex-shrink:0;width:171px;}
+.layout-208{font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:13px;position:relative;flex-shrink:0;color:var(--ink);font-size:10px;letter-spacing:-0.4px;width:100%;white-space:pre-wrap;}
+.layout-209{font-family:"Days One", sans-serif;line-height:1.1;position:relative;flex-shrink:0;color:var(--red);font-size:12px;text-transform:uppercase;width:100%;}
+.layout-210{position:absolute;left:83.24px;width:278.681px;height:278.681px;top:34px;}
+.layout-211{position:absolute;height:215.599px;left:0;top:136.32px;width:728.156px;}
+.layout-212{position:absolute;inset:-0.66% -0.21% -2.1% -0.54%;}
+.layout-213{position:absolute;left:55.7px;width:303.1px;height:303.1px;top:82.34px;}
+.layout-214{position:absolute;height:379px;left:16px;top:0px;width:358px;}
+.layout-215{overflow-wrap:break-word;position:absolute;font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:13px;left:50%;font-style:normal;color:var(--ink);font-size:10px;text-align:center;top:39px;letter-spacing:-0.4px;width:230px;transform:translateX(-50%);}
+.layout-216{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:0.89;left:50%;font-style:normal;color:var(--red);font-size:26px;text-align:center;top:0;letter-spacing:-1.3px;text-transform:uppercase;width:358px;transform:translateX(-50%);}
+.layout-217{position:absolute;height:84.825px;left:259px;top:222px;width:104px;}
+.layout-218{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 14px);font-style:normal;color:var(--red);font-size:10px;top:0;text-transform:uppercase;white-space:nowrap;}
+.layout-219{position:absolute;display:flex;height:82.08px;align-items:center;justify-content:center;left:0;top:2.75px;width:71.436px;}
+.layout-220{height:41.65px;position:relative;width:70.731px;}
+.layout-221{position:absolute;inset:-1.29% -1.49% -6.85% 0.72%;}
+.layout-222{position:absolute;height:95.373px;left:5px;top:144px;width:107.383px;}
+.layout-223{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 53.69px);font-style:normal;color:var(--blue);font-size:10px;top:4.11px;text-transform:uppercase;white-space:nowrap;}
+.layout-224{position:absolute;display:flex;height:95.373px;align-items:center;justify-content:center;left:23.95px;top:0;width:83.436px;}
+.layout-225{height:49.142px;position:relative;width:81.755px;}
+.layout-226{position:absolute;height:79.813px;left:245.25px;top:173px;width:97.75px;}
+.layout-227{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 47.13px);font-style:normal;color:var(--red);font-size:10px;top:0;text-transform:uppercase;white-space:nowrap;}
+.layout-228{position:absolute;display:flex;height:62.172px;align-items:center;justify-content:center;left:0;top:17.64px;width:52.473px;}
+.layout-229{height:46.9px;position:relative;width:57.746px;}
+.layout-230{position:absolute;height:68.813px;left:5px;top:239px;width:107.355px;}
+.layout-231{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 43.68px);font-style:normal;color:var(--blue);font-size:10px;top:0;text-transform:uppercase;white-space:nowrap;}
+.layout-232{position:absolute;display:flex;height:68.813px;align-items:center;justify-content:center;left:41px;top:0;width:66.357px;}
+.layout-233{height:54.119px;position:relative;width:42.557px;}
+.layout-234{position:absolute;height:49.327px;left:294.95px;top:309px;width:68.045px;}
+.layout-235{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 12.98px);font-style:normal;color:var(--red);font-size:10px;top:0;text-transform:uppercase;white-space:nowrap;}
+.layout-236{position:absolute;display:flex;height:36.747px;align-items:center;justify-content:center;left:0;top:12.58px;width:46.718px;}
+.layout-237{height:27.024px;position:relative;width:41.125px;}
+.layout-238{position:absolute;height:47.888px;left:40px;top:99px;width:76.619px;}
+.layout-239{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:1.1;left:calc(50% - 38.31px);font-style:normal;color:var(--blue);font-size:10px;top:0;text-transform:uppercase;white-space:nowrap;}
+.layout-240{position:absolute;display:flex;height:36.747px;align-items:center;justify-content:center;left:29.9px;top:11.14px;width:46.718px;}
+.layout-241{position:absolute;display:flex;height:44px;align-items:center;justify-content:center;left:292px;top:90px;width:48px;}
+.layout-242{height:48px;position:relative;width:44px;}
+.layout-243{position:absolute;inset:-1.63% -4.43% -2.79% -2.18%;}
+.layout-244{position:absolute;display:flex;height:51.658px;align-items:center;justify-content:center;left:18.81px;top:327.14px;width:54.833px;}
+.layout-245{height:45.72px;position:relative;width:41.23px;}
+.layout-246{position:absolute;inset:-2.11% -3.08% -2.6% -2.2%;}
+.layout-247{position:absolute;height:46.8px;left:134.93px;top:121.77px;width:46.475px;}
+.layout-248{position:absolute;height:315px;left:-94px;top:0px;width:578px;}
+.layout-249{position:absolute;left:50%;width:578px;height:578px;top:0;transform:translateX(-50%);}
+.layout-250{position:absolute;height:144.3px;left:67.07px;top:170.85px;width:143.975px;}
+.layout-251{overflow-wrap:break-word;position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:16px;align-items:flex-end;left:110px;font-style:normal;top:60px;width:358px;white-space:pre-wrap;}
+.layout-252{font-family:"Days One", sans-serif;line-height:0.89;min-width:100%;position:relative;flex-shrink:0;color:var(--blue);font-size:26px;text-align:center;letter-spacing:-1.3px;text-transform:uppercase;width:min-content;}
+.layout-253{font-family:"Days One", sans-serif;line-height:1.1;position:relative;flex-shrink:0;color:var(--blue);font-size:12px;text-transform:uppercase;width:100%;}
+.layout-254{font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:13px;position:relative;flex-shrink:0;color:var(--ink);font-size:10px;letter-spacing:-0.4px;width:100%;}
+.layout-255{position:absolute;left:16px;border-radius:167.05px;width:171px;height:171px;top:122px;}
+.layout-256{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;border-radius:167.05px;width:100%;height:100%;}
+.layout-257{position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:16px;align-items:center;left:10px;top:0px;width:370.5px;}
+.layout-258{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:0.89;min-width:100%;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:26px;text-align:center;letter-spacing:-1.3px;text-transform:uppercase;width:min-content;white-space:pre-wrap;}
+.layout-259{align-content:stretch;display:flex;align-items:center;justify-content:space-between;position:relative;flex-shrink:0;width:358px;}
+.layout-260{overflow-wrap:break-word;align-content:stretch;display:flex;flex-direction:column;gap:4px;align-items:flex-start;font-style:normal;position:relative;flex-shrink:0;width:171px;}
+.layout-261{align-content:stretch;display:flex;font-family:"Days One", sans-serif;gap:4px;align-items:center;line-height:1.1;position:relative;flex-shrink:0;color:var(--blue);font-size:12px;text-align:center;text-transform:uppercase;width:100%;white-space:nowrap;}
+.layout-262{font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:13px;position:relative;flex-shrink:0;color:var(--ink);font-size:10px;letter-spacing:-0.4px;width:171px;white-space:pre-wrap;}
+.layout-263{align-content:stretch;display:flex;height:214px;align-items:flex-start;padding:4px;position:relative;border-radius:11.997px;flex-shrink:0;width:171px;}
+.layout-264{position:absolute;inset:0;overflow:hidden;pointer-events:none;border-radius:11.997px;}
+.layout-265{align-content:stretch;display:flex;height:226px;align-items:flex-start;padding:4px;position:relative;border-radius:13px;flex-shrink:0;width:171px;}
+.layout-266{position:absolute;inset:0;max-width:none;object-fit:cover;pointer-events:none;border-radius:13px;width:100%;height:100%;}
+.layout-267{font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:0;position:relative;flex-shrink:0;color:var(--ink);font-size:10px;letter-spacing:-0.4px;width:171px;white-space:pre-wrap;}
+.layout-268{line-height:13px;margin-bottom:0;}
+.layout-269{line-height:13px;}
+.layout-270{align-content:stretch;display:flex;height:223px;align-items:flex-start;padding:4px;position:relative;border-radius:13px;flex-shrink:0;width:171px;}
+.layout-271{position:absolute;display:flex;height:31.634px;align-items:center;justify-content:center;left:316.23px;top:84.87px;width:33.579px;}
+.layout-272{height:27.998px;position:relative;width:25.248px;}
+.layout-273{position:absolute;inset:-3.36% -6.25% -3.87% -5.01%;}
+.layout-274{position:absolute;display:flex;height:33.579px;align-items:center;justify-content:center;left:231.4px;top:198.95px;width:31.634px;}
+.layout-275{position:absolute;height:1.312px;left:310.54px;top:144.66px;width:1.036px;}
+.layout-276{position:absolute;height:1.3px;left:278.53px;top:155.72px;width:2.275px;}
+.layout-277{position:absolute;height:29.9px;left:305.5px;top:602.67px;width:30.875px;}
+.layout-278{position:absolute;height:654.173px;left:-65px;top:0px;width:524.548px;}
+.layout-279{position:absolute;height:223.275px;left:96.2px;top:430.9px;width:222.625px;}
+.layout-280{position:absolute;height:260px;left:5.2px;top:328.2px;width:260.325px;}
+.layout-281{position:absolute;height:260px;left:264.22px;top:282.7px;width:260.325px;}
+.layout-282{position:absolute;height:223.275px;left:287.95px;top:68.9px;width:222.625px;}
+.layout-283{position:absolute;height:223.275px;left:37.7px;top:76.05px;width:222.625px;}
+.layout-284{position:absolute;height:260px;left:124.8px;top:50.7px;width:260.325px;}
+.layout-285{position:absolute;height:260px;left:140.4px;top:365.57px;width:260.325px;}
+.layout-286{position:absolute;height:260px;left:0;top:109.2px;width:260.325px;}
+.layout-287{position:absolute;height:260px;left:219.7px;top:87.75px;width:260.325px;}
+.layout-288{position:absolute;left:355.22px;width:59.475px;height:59.475px;top:0;}
+.layout-289{position:absolute;height:29.9px;left:81.57px;top:51.67px;width:30.875px;}
+.layout-290{position:absolute;align-content:stretch;display:flex;flex-direction:column;gap:16px;align-items:flex-start;left:81px;top:141.82px;width:358px;}
+.layout-291{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:0.89;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:26px;text-align:center;letter-spacing:-1.3px;text-transform:uppercase;width:100%;white-space:pre-wrap;}
+.layout-292{height:332.841px;position:relative;flex-shrink:0;width:100%;}
+.layout-293{overflow-wrap:break-word;position:absolute;font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:13px;left:0;font-style:normal;color:var(--ink);font-size:10px;top:0;letter-spacing:-0.4px;width:119px;}
+.layout-294{overflow-wrap:break-word;position:absolute;font-family:"Helvetica Local", Helvetica, Arial, sans-serif;line-height:13px;left:239px;font-style:normal;color:var(--ink);font-size:10px;top:249px;letter-spacing:-0.4px;width:119px;}
+.layout-295{position:absolute;height:295.841px;left:22px;top:37px;width:240px;}
+.layout-296{position:absolute;display:flex;height:254.84px;align-items:center;justify-content:center;left:0;top:41px;width:217.854px;}
+.layout-297{height:219.13px;position:relative;width:166.824px;}
+.layout-298{position:absolute;height:247px;left:calc(50% + 36.5px);top:0;width:167px;transform:translateX(-50%);}
+.layout-299{position:absolute;display:flex;height:48px;align-items:center;justify-content:center;left:65px;top:151.95px;width:53px;}
+.layout-300{height:53px;position:relative;width:48px;}
+.layout-301{position:absolute;inset:-2.37% -2.36% -3.02% -2.85%;}
+.layout-302{position:absolute;display:flex;height:45.49px;align-items:center;justify-content:center;left:313.7px;top:210.06px;width:48.48px;}
+.layout-303{height:40.478px;position:relative;width:36.249px;}
+.layout-304{position:absolute;inset:-2.97% -4.63% -3.85% -3.56%;}
+.layout-305{position:absolute;height:407.324px;left:-15.6px;top:0px;width:406.57px;}
+.layout-306{position:absolute;background-color:var(--pink);align-content:stretch;display:flex;height:80px;align-items:center;justify-content:center;left:215.6px;padding-bottom:23px;padding-top:24px;padding-left:22px;padding-right:22px;border-radius:50px;top:207px;width:174px;}
+.layout-307{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:1.1;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:12px;text-align:center;text-transform:uppercase;width:130px;}
+.layout-308{position:absolute;display:flex;height:43.086px;align-items:center;justify-content:center;left:239.85px;top:185.35px;width:41.574px;}
+.layout-309{height:33.199px;position:relative;width:29.73px;}
+.layout-310{position:absolute;inset:-2.91% -5.34% -4.19% -4.32%;}
+.layout-311{position:absolute;height:51.025px;left:0;top:356.3px;width:52.65px;}
+.layout-312{position:absolute;height:18.85px;left:387.07px;top:156.75px;width:19.5px;}
+.layout-313{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:0.89;left:calc(50% + 7.31px);font-style:normal;color:var(--blue);font-size:26px;text-align:center;top:0;letter-spacing:-1.3px;text-transform:uppercase;width:358px;transform:translateX(-50%);}
+.layout-314{position:absolute;background-color:var(--pink);align-content:stretch;display:flex;height:81px;align-items:center;justify-content:center;left:31.6px;padding-left:15px;padding-right:15px;padding-top:24px;padding-bottom:24px;border-radius:50px;top:39px;width:174px;}
+.layout-315{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:1.1;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:12px;text-align:center;text-transform:uppercase;width:144px;white-space:pre-wrap;}
+.layout-316{position:absolute;background-color:var(--pink);align-content:stretch;display:flex;height:81px;align-items:center;justify-content:center;left:215.6px;padding-left:18px;padding-right:17px;padding-top:24px;padding-bottom:24px;border-radius:50px;top:76px;width:174px;}
+.layout-317{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:1.1;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:12px;text-align:center;text-transform:uppercase;width:139px;}
+.layout-318{position:absolute;background-color:var(--pink);align-content:stretch;display:flex;height:80px;align-items:center;justify-content:center;left:31.6px;padding-bottom:24px;padding-left:10px;padding-right:9px;padding-top:23px;border-radius:50px;top:258px;width:174px;}
+.layout-319{overflow-wrap:break-word;font-family:"Days One", sans-serif;line-height:1.1;font-style:normal;position:relative;flex-shrink:0;color:var(--blue);font-size:12px;text-align:center;text-transform:uppercase;width:154.7px;}
+.layout-320{position:absolute;display:flex;height:37.31px;align-items:center;justify-content:center;left:25.35px;top:24.8px;width:39.762px;}
+.layout-321{position:absolute;display:flex;height:36.706px;align-items:center;justify-content:center;left:350.78px;top:59.9px;width:33.707px;}
+.layout-322{position:absolute;display:flex;height:37.31px;align-items:center;justify-content:center;left:32.82px;top:313.73px;width:39.762px;}
+.layout-323{position:absolute;height:160.225px;left:52.65px;top:110.6px;width:188.825px;}
+.layout-324{position:absolute;height:160.225px;left:0;top:0;width:188.825px;}
+.layout-325{position:absolute;left:36.4px;width:116.025px;height:116.025px;top:16.57px;}
+.layout-326{position:absolute;height:616.851px;left:-94.57px;top:0px;width:578.825px;}
+.layout-327{position:absolute;display:flex;align-items:center;justify-content:center;left:319.12px;width:147.076px;height:147.076px;top:32.31px;}
+.layout-328{background-color:#cde5f9;position:relative;border-radius:13px;width:127.572px;height:127.572px;}
+.layout-329{position:absolute;height:578.175px;left:50%;top:38.68px;width:578.825px;transform:translateX(-50%);}
+.layout-330{position:absolute;height:18.85px;left:297.7px;top:3.9px;width:19.5px;}
+.layout-331{overflow-wrap:break-word;position:absolute;font-family:"Days One", sans-serif;line-height:0.89;left:calc(50% - 178.84px);font-style:normal;color:var(--blue);font-size:26px;top:126.93px;letter-spacing:-1.3px;text-transform:uppercase;width:224.9px;}
+.layout-332{position:absolute;display:flex;height:28.329px;align-items:center;justify-content:center;left:221.32px;top:89.7px;width:30.191px;}
+.layout-333{height:25.208px;position:relative;width:22.574px;}
+.layout-334{position:absolute;display:flex;align-items:center;justify-content:center;left:306.19px;width:147.076px;height:147.076px;top:13.35px;}
+.layout-335{position:relative;border-radius:13px;width:127.572px;height:127.572px;}
+.layout-336{position:absolute;display:flex;height:42.441px;align-items:center;justify-content:center;left:303.22px;top:0;width:41.205px;}
+.layout-337{height:32.304px;position:relative;width:28.929px;}
+.layout-338{position:absolute;inset:-3.99% -6.53% -3.98% -3.85%;}
 
 /* Central 1140px grid with full-width section backgrounds.
    The extra 30px on either side of the design canvas preserve the original
@@ -451,7 +443,7 @@
   height: 47px;
   padding: 8px 30px;
   border-radius: 30px;
-  background: #eeb5bf;
+  background: rgba(238, 181, 191, .5);
   pointer-events: auto;
 }
 .navigation-menu a {
@@ -517,13 +509,18 @@
     gap: calc(20px * var(--page-scale));
     border-radius: calc(9.75px * var(--page-scale));
   }
-  .navigation-menu a { height: calc(14px * var(--page-scale)); }
-  .navigation-menu a:nth-child(1) { width: calc(81px * var(--page-scale)); }
-  .navigation-menu a:nth-child(2) { width: calc(53px * var(--page-scale)); }
-  .navigation-menu a:nth-child(3) { width: calc(31px * var(--page-scale)); }
+  .navigation-menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(13px * var(--page-scale));
+  }
+  .navigation-menu a:nth-child(1),
+  .navigation-menu a:nth-child(2),
+  .navigation-menu a:nth-child(3) { width: auto; }
   .navigation-label {
     font-size: calc(10px * var(--page-scale));
-    line-height: normal;
+    line-height: calc(13px * var(--page-scale));
     letter-spacing: calc(-.4px * var(--page-scale));
   }
   .page-section { scroll-margin-top: calc(84px * var(--page-scale)); }
