@@ -15,52 +15,77 @@ function fitLayout() {
 fitLayout();
 window.addEventListener('resize', fitLayout, { passive: true });
 
-// Reveal each text block once. Without observer support or with reduced
-// motion, all content remains visible and the original artwork stays still.
+// Headings and paragraphs appear independently. Photo crops use their own
+// wrapper, so a card's text never inherits a second reveal transform.
 function setupPageMotion() {
   const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
   const textBlocks = [...document.querySelectorAll('.page-section h1, .page-section h2, .page-section h3, .page-section p')];
-  const characters = [...document.querySelectorAll('.character-art, .character-breathe')];
-  let textObserver;
+  const photoIds = ['210:749', '210:758', '210:765', '210:782', '210:837', '210:906', '210:915', '210:922', '210:939', '210:992'];
+  const photos = [...document.querySelectorAll(photoIds.map(id => `[data-node-id="${id}"]`).join(','))];
+  // The closing illustration has a background and is cropped by its parent.
+  document.querySelectorAll('img[src$="160ca.png"]').forEach(image => photos.push(image.parentElement));
+  const revealBlocks = [...new Set([...textBlocks, ...photos])];
+  const characters = [...document.querySelectorAll('img[data-animated-src][data-still-src]')];
+  const characterVisibility = new WeakMap();
+  let revealObserver;
+  let resetObserver;
   let characterObserver;
 
+  textBlocks.forEach(element => {
+    element.classList.add('text-reveal');
+    element.classList.toggle('reveal-heading', element.matches('h1, h2, h3'));
+    element.style.setProperty('--reveal-delay', element.matches('h1, h2, h3') ? '0ms' : '100ms');
+  });
+  photos.forEach(element => element.classList.add('media-reveal'));
+
+  function updateCharacters() {
+    characters.forEach(image => {
+      const animate = !preference.matches && !document.hidden && characterVisibility.get(image);
+      const source = animate ? image.dataset.animatedSrc : image.dataset.stillSrc;
+      if (image.getAttribute('src') !== source) image.setAttribute('src', source);
+    });
+  }
+
   function configureMotion() {
-    textObserver?.disconnect();
+    revealObserver?.disconnect();
+    resetObserver?.disconnect();
     characterObserver?.disconnect();
-    textBlocks.forEach(element => element.classList.remove('is-pending'));
-    characters.forEach(element => element.classList.remove('is-in-view'));
+    revealBlocks.forEach(element => element.classList.remove('is-pending'));
+    characters.forEach(image => characterVisibility.set(image, false));
+    updateCharacters();
     if (preference.matches || !('IntersectionObserver' in window)) return;
 
-    textObserver = new IntersectionObserver(entries => {
+    revealObserver = new IntersectionObserver(entries => {
       entries.forEach(entry => {
-        if (!entry.isIntersecting) return;
-        entry.target.classList.remove('is-pending');
-        entry.target.dataset.revealed = 'true';
-        textObserver.unobserve(entry.target);
+        if (entry.isIntersecting) entry.target.classList.remove('is-pending');
       });
-    }, { threshold: .08, rootMargin: '0px 0px -24px 0px' });
+    }, { threshold: .01, rootMargin: '0px 0px -24px 0px' });
 
-    textBlocks.forEach(element => {
-      if (element.dataset.revealed) return;
+    // The generous reset boundary prevents the entrance translation itself
+    // from toggling the observer repeatedly near a viewport edge.
+    resetObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) entry.target.classList.add('is-pending');
+      });
+    }, { threshold: 0, rootMargin: '180px 0px' });
+
+    revealBlocks.forEach(element => {
       // Do not hide text above the current position when opening a deep link.
       const bounds = element.getBoundingClientRect();
-      if (bounds.width && bounds.bottom < 0) {
-        element.dataset.revealed = 'true';
-        return;
-      }
-      element.classList.add('text-reveal', 'is-pending');
-      element.style.setProperty('--reveal-delay', element.matches('h1, h2, h3') ? '0ms' : '80ms');
-      textObserver.observe(element);
+      if (!bounds.width || bounds.bottom >= 0) element.classList.add('is-pending');
+      revealObserver.observe(element);
+      resetObserver.observe(element);
     });
 
     characterObserver = new IntersectionObserver(entries => {
-      entries.forEach(entry => entry.target.classList.toggle('is-in-view', entry.isIntersecting));
-    }, { threshold: .01, rootMargin: '40px 0px' });
+      entries.forEach(entry => characterVisibility.set(entry.target, entry.isIntersecting));
+      updateCharacters();
+    }, { threshold: .01 });
     characters.forEach(element => characterObserver.observe(element));
   }
 
   function pauseWhenHidden() {
-    document.documentElement.classList.toggle('motion-paused', document.hidden);
+    updateCharacters();
   }
   configureMotion();
   pauseWhenHidden();
